@@ -1,0 +1,20 @@
+Users table for API
+teacher id
+username
+password
+
+Session table for Api
+seesion id
+created date =  new Date()
+expired date = new Date() + 60000
+
+session managment (read about it)
+
+New Api method, login, logout
+username, password -> jwt (read about it)
+
+All requests to the Api are with Bearer token
+
+new Api method create session,delete session
+
+(read about scalling, and event emitter)
